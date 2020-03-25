@@ -17,8 +17,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npx webpack",
+    "build": "npx webpack",
     "deploy": "gh-pages -d build"
   },
   "repository": {
