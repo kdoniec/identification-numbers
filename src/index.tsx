@@ -19,11 +19,14 @@ ReactDOM.render(
     <main role="main">
       <Jumbotron>
         <Container>
-        <h1 className="display-3">Hello, world!</h1>
+        <h1 className="display-3">Identification numbers</h1>
         <p>
-          This is a simple hero unit, a simple jumbotron-style component for calling
-          extra attention to featured content or information.
+            Here you will find the most useful generators and validators of various types of identification numbers.
+            Validators of this type are useful both in everyday life and at work.
+            Below you can find three main categories.
         </p>
+        <p>
+            The site is still under construction</p>
         <p>
           <Button variant="primary">Learn more</Button>
         </p>
@@ -32,19 +35,19 @@ ReactDOM.render(
 
       <Container>
         <Row>
-           <Col md="4">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+           <Col md="8">
+              <h2>Personal</h2>
+              <p>A national identification number, national identity number, or national insurance number is used by the governments of many countries as a means of tracking their citizens, permanent residents, and temporary residents for the purposes of work, taxation, government benefits, health care, and other governmentally-related functions. The number appears on identity documents issued by several countries.</p>
               <p><Button variant="secondary">View details »</Button></p>
            </Col>
            <Col md="4">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <h2>Vehicle</h2>
+              <p>A vehicle identification number (VIN) is a unique code, including a serial number, used by the automotive industry to identify individual motor vehicles, towed vehicles, motorcycles, scooters and mopeds.</p>
               <p><Button variant="secondary">View details »</Button></p>
            </Col>
            <Col md="4">
-              <h2>Heading</h2>
-              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <h2>Other</h2>
+              <p>And many others</p>
               <p><Button variant="secondary">View details »</Button></p>
            </Col>
         </Row>
